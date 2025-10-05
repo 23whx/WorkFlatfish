@@ -1,0 +1,28 @@
+# StealthNovel - robots.txt
+# 允许所有搜索引擎爬取
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+
+# 特定搜索引擎爬虫
+User-agent: Googlebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# 爬取频率限制
+Crawl-delay: 1
+
+# Sitemap 位置
+Sitemap: https://work-flatfish.vercel.app/sitemap.xml
+
+# 主机信息
+Host: https://work-flatfish.vercel.app
+
