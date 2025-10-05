@@ -1,0 +1,38 @@
+{
+  "mode": "TaskbarTitle",
+  "title_window": 40,
+  "auto_tick": false,
+  "auto_tick_interval_ms": 0,
+  "advance_by": "char",
+  "theme": {
+    "text": "#000000",
+    "bg": "#E6F4EA",
+    "accent": "#F9D9D9",
+    "opacity": 0.92
+  },
+  "hotkeys": {
+    "next_char": "right",
+    "next_line": "down",
+    "toggle_mode": "ctrl+shift+m",
+    "toggle_auto": "ctrl+shift+a",
+    "reset_progress": "ctrl+shift+r"
+  },
+  "fake_popup": {
+    "width": 360,
+    "height": 120,
+    "margin": 16,
+    "rounded": 14,
+    "shadow": true,
+    "animate": true
+  },
+  "taskbar_title": {
+    "min_window_size": [1, 1],
+    "stick_to_corner": "bottom-left"
+  },
+  "source": {
+    "type": "file",
+    "path": "novel.txt",
+    "url": ""
+  }
+}
+

@@ -1,0 +1,174 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Project Specific - StealthNovel
+# ==========================================
+
+# 运行时状态文件（用户数据）
+config/state.json
+stealth_settings.json
+
+# 测试文件
+tests/temp_*.json
+test_*.txt
+
+# 用户上传的小说文件
+*.txt
+!novel.txt
+!测试小说.txt
+!使用说明.txt
+!功能更新说明.txt
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+
+# PyInstaller
+*.spec
+build/
+dist/
+*.exe
+*.app
+*.dmg
+
+# setuptools
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# ==========================================
+# Web & Deployment
+# ==========================================
+
+# Vercel
+.vercel
+
+# Node modules (if any)
+node_modules/
+npm-debug.log
+
+# Static site generators
+.cache/
+public/
+
+# ==========================================
+# Documentation
+# ==========================================
+
+# 临时文档
+*.tmp
+*.bak
+*~
+
+# ==========================================
+# Media Files (optional)
+# ==========================================
+
+# 不需要提交的大型媒体文件
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+# 但保留项目必需的图标
+!icon.png
+!web/icon.png
+
+# ==========================================
+# Database & Data
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Security
+# ==========================================
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+*.diff
+*.patch
+*.orig
+*.rej
+

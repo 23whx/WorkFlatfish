@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- 主页 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://stealthnovel.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://stealthnovel.vercel.app/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://stealthnovel.vercel.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://stealthnovel.vercel.app/ko/" />
+  </url>
+  
+  <!-- 功能特性 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/#features</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 下载页面 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/#download</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 使用指南 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/#usage</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 常见问题 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/#faq</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 联系我们 -->
+  <url>
+    <loc>https://stealthnovel.vercel.app/#contact</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
+
