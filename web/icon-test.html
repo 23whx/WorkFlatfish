@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图标测试页面 - StealthNovel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #E6F4EA 0%, #d4e8dc 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #000;
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #E6F4EA;
+            padding-bottom: 10px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .icon-item {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #E6F4EA;
+            transition: all 0.3s;
+        }
+        .icon-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .icon-item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .icon-item h3 {
+            font-size: 16px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .icon-item p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+        .icon-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 12px;
+            word-break: break-all;
+        }
+        .icon-item a:hover {
+            text-decoration: underline;
+        }
+        .test-links {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #ffc107;
+        }
+        .test-links h3 {
+            color: #856404;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .test-links ul {
+            list-style: none;
+        }
+        .test-links li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .test-links li:before {
+            content: "🔗";
+            position: absolute;
+            left: 0;
+        }
+        .test-links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .test-links a:hover {
+            text-decoration: underline;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .back-home {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .back-home:hover {
+            background: #333;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📦 图标测试页面</h1>
+        <p class="subtitle">验证 StealthNovel 网站的所有图标文件是否正常加载</p>
+        
+        <div class="section">
+            <h2>🖼️ 图标文件列表</h2>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <img src="favicon.ico" alt="favicon.ico" onerror="this.style.border='2px solid red'">
+                    <h3>favicon.ico</h3>
+                    <p>标准图标格式</p>
+                    <div class="status success">✓ 已创建</div>
+                    <p><a href="favicon.ico" target="_blank">查看文件</a></p>
+                </div>
+                
+                <div class="icon-item">
+                    <img src="favicon.png" alt="favicon.png" onerror="this.style.border='2px solid red'">
+                    <h3>favicon.png</h3>
+                    <p>PNG 格式备用</p>
+                    <div class="status success">✓ 已创建</div>
+                    <p><a href="favicon.png" target="_blank">查看文件</a></p>
+                </div>
+                
+                <div class="icon-item">
+                    <img src="icon.png" alt="icon.png" onerror="this.style.border='2px solid red'">
+                    <h3>icon.png</h3>
+                    <p>主图标文件</p>
+                    <div class="status success">✓ 已创建</div>
+                    <p><a href="icon.png" target="_blank">查看文件</a></p>
+                </div>
+                
+                <div class="icon-item">
+                    <img src="apple-touch-icon.png" alt="apple-touch-icon.png" onerror="this.style.border='2px solid red'">
+                    <h3>apple-touch-icon.png</h3>
+                    <p>Apple 设备图标</p>
+                    <div class="status success">✓ 已创建</div>
+                    <p><a href="apple-touch-icon.png" target="_blank">查看文件</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔧 配置文件</h2>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div style="font-size: 48px; margin-bottom: 15px;">📄</div>
+                    <h3>manifest.json</h3>
+                    <p>PWA 应用清单</p>
+                    <div class="status success">✓ 已配置</div>
+                    <p><a href="manifest.json" target="_blank">查看文件</a></p>
+                </div>
+                
+                <div class="icon-item">
+                    <div style="font-size: 48px; margin-bottom: 15px;">📋</div>
+                    <h3>browserconfig.xml</h3>
+                    <p>Windows 磁贴配置</p>
+                    <div class="status success">✓ 已配置</div>
+                    <p><a href="browserconfig.xml" target="_blank">查看文件</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="test-links">
+                <h3>🧪 在线测试工具</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.google.com/s2/favicons?domain=work-flatfish.vercel.app&sz=128" target="_blank">
+                            Google Favicon Service 测试
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://realfavicongenerator.net/favicon_checker?protocol=https&site=work-flatfish.vercel.app" target="_blank">
+                            Real Favicon Generator 检查器
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://developers.facebook.com/tools/debug/" target="_blank">
+                            Facebook Open Graph 调试工具
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cards-dev.twitter.com/validator" target="_blank">
+                            Twitter Card Validator
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📝 测试说明</h2>
+            <div style="background: #f9f9f9; padding: 20px; border-radius: 12px; line-height: 1.8;">
+                <p style="margin-bottom: 15px;">
+                    <strong>✅ 如果上方所有图标都正常显示：</strong><br>
+                    说明图标文件配置正确，可以正常使用。
+                </p>
+                <p style="margin-bottom: 15px;">
+                    <strong>❌ 如果图标显示为红色边框：</strong><br>
+                    说明该图标文件加载失败，请检查文件是否存在。
+                </p>
+                <p style="margin-bottom: 15px;">
+                    <strong>🔄 导航站图标更新：</strong><br>
+                    导航站可能需要 24-48 小时才能更新缓存并显示新图标。
+                </p>
+                <p>
+                    <strong>💡 提示：</strong><br>
+                    可以将图标直接链接提供给导航站管理员：<br>
+                    <code style="background: #e9ecef; padding: 4px 8px; border-radius: 4px; display: inline-block; margin-top: 5px;">
+                        https://work-flatfish.vercel.app/favicon.ico
+                    </code>
+                </p>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="/" class="back-home">← 返回首页</a>
+        </div>
+    </div>
+    
+    <script>
+        // 检测图标加载状态
+        window.addEventListener('load', function() {
+            const images = document.querySelectorAll('.icon-item img');
+            images.forEach(img => {
+                if (img.complete && img.naturalHeight > 0) {
+                    console.log('✓ 图标加载成功:', img.alt);
+                } else {
+                    console.error('✗ 图标加载失败:', img.alt);
+                }
+            });
+        });
+        
+        // 显示浏览器信息
+        console.log('浏览器信息:', navigator.userAgent);
+        console.log('当前 URL:', window.location.href);
+    </script>
+</body>
+</html>
+
